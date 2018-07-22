@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>X-admin v2.0 </title>
+	<link rel="stylesheet" href="font/iconfont.css">
+	<link rel="stylesheet" href="page.css">
+	<link rel="stylesheet" href="layui/layui/css/layui.css">
+
+</head>
+<body>
+
+	<div class="top">
+		<ul class="layui-nav" >
+		<span style="margin-left: 10px;">X-admin v2.0</span>
+			<span >
+				
+				<i class="iconfont" style="color: white;">&#xe6df;</i>
+				<a href="" class="layui-nav-item" style="position: relative;left: 170px;">新增</a>
+				<i class="iconfont" style="color: white;position: relative;left: 170px;">&#xe600;</i>
+				
+			</span>
+			<span>
+				<a href="" class="layui-nav-item" style="position: relative;left: 1120px;">admin</a>
+				<i class="iconfont" style="color: white;position: relative;left: 1120px;">&#xe600;</i>
+			</span>
+			<span>
+				<a href="javascript:;" class="layui-nav-item" style="position: relative;left: 1150px;">前台首页</a>	
+			</span>
+
+	</ul>
+	</div>
+	
+		<div class="left">
+			<ul class="layui-nav layui-nav-tree" lay-filter="test"> 
+			<!-- 侧边导航: <ul class="layui-nav layui-nav-tree layui-nav-side"> -->
+			  <li class="layui-nav-item layui-nav-itemed">
+			    <a href="javascript:;">会员管理</a>
+			    <dl class="layui-nav-child">			      
+			      <dd><a href="javascript:;" data-id="1" data-title="会员列表" data-url="form.html" class="site-demo-active" data-type="tabAdd">会员列表</a></dd>
+			      <dd><a href="javascript:;" data-id="2" data-title="会员删除" data-url="https://www.baidu.com/"class="site-demo-active" data-type="tabAdd">会员删除</a></dd>
+			      <dd><a href="javascript:;" data-id="3" data-title="会员管理" data-url="https://www.baidu.com/"class="site-demo-active" data-type="tabAdd">会员管理</a></dd>
+			    </dl>
+			  </li>
+
+			  <li class="layui-nav-item">
+			    <a href="javascript:;">订单管理</a>
+			    <dl class="layui-nav-child">
+			      <dd><a href="javascript:;" data-id="4" data-title="订单列表" data-url="form.html"class="site-demo-active" data-type="tabAdd">订单列表</a></dd>
+			    </dl>
+			  </li>
+
+			  <li class="layui-nav-item">
+			    <a href="javascript:;">分类管理</a>
+			    <dl class="layui-nav-child">
+			      <dd><a href="javascript:;" data-id="5" data-title="多级分类" data-url=""class="site-demo-active" data-type="tabAdd">多级分类</a></dd>			 
+			    </dl>
+			  </li>
+
+			  <li class="layui-nav-item">
+			    <a href="javascript:;">城市联动</a>
+			    <dl class="layui-nav-child">
+			      <dd><a href="javascript:;" data-id="6" data-title="三级地区联动" data-url=""class="site-demo-active" data-type="tabAdd">三级地区联动</a></dd>			 
+			    </dl>
+			  </li>
+
+			   <li class="layui-nav-item">
+			    <a href="javascript:;">管理员管理</a>
+				    <dl class="layui-nav-child">
+				      <dd><a href="javascript:;" data-id="7" data-title="管理员列表" data-url=""class="site-demo-active" data-type="tabAdd">管理员列表</a></dd>
+				      <dd><a href="javascript:;" data-id="8" data-title="角色管理" data-url=""class="site-demo-active" data-type="tabAdd">角色管理</a></dd>
+				      <dd><a href="javascript:;" data-id="9" data-title="权限分类" data-url=""class="site-demo-active" data-type="tabAdd">权限分类</a></dd>
+				      <dd><a href="javascript:;" data-id="10" data-title="权限管理" data-url=""class="site-demo-active" data-type="tabAdd">权限管理</a></dd>			 
+				    </dl>
+			  </li>
+
+			   <li class="layui-nav-item">
+			    <a href="javascript:;">系统统计</a>
+			    <dl class="layui-nav-child">
+			      <dd><a href="javascript:;" data-id="11" data-title="折线图" data-url="" class="site-demo-active" data-type="tabAdd">折线图</a></dd>
+			      <dd><a href="javascript:;" data-id="12" data-title="柱状图" data-url=""class="site-demo-active" data-type="tabAdd">柱状图</a></dd>
+			      <dd><a href="javascript:;" data-id="13" data-title="地图" data-url=""class="site-demo-active" data-type="tabAdd">地图</a></dd>
+			      <dd><a href="javascript:;" data-id="14" data-title="饼图" data-url=""class="site-demo-active" data-type="tabAdd">饼图</a></dd>
+			      <dd><a href="javascript:;" data-id="15" data-title="雷达图" data-url=""class="site-demo-active" data-type="tabAdd">雷达图</a></dd>
+			      <dd><a href="javascript:;" data-id="16" data-title="k线图" data-url=""class="site-demo-active" data-type="tabAdd">k线图</a></dd>
+			      <dd><a href="javascript:;" data-id="17" data-title="热力图" data-url=""class="site-demo-active" data-type="tabAdd">热力图</a></dd>
+			      <dd><a href="javascript:;" data-id="18" data-title="仪表图" data-url=""class="site-demo-active" data-type="tabAdd">仪表图</a></dd>				 
+			    </dl>
+			  </li>
+
+			  <li class="layui-nav-item">
+			    <a href="javascript:;">图中字体</a>
+			    <dl class="layui-nav-child">
+			      <dd><a href="javascript:;" data-id="19" data-title="图中对应字体" data-url=""class="site-demo-active" data-type="tabAdd">图中对应字体</a></dd>			 
+			    </dl>
+			  </li>
+			  
+			</ul>
+
+		</div>
+		<div class="right_top">
+			<div class="layui-tab" lay-filter="demo" lay-allowclose="true" >
+		        <ul class="layui-tab-title">
+		        	<li >我的桌面</li>
+		        </ul>
+					
+		        <div class="layui-tab-content">
+		        	<div class="layui-tab-item layui-show">
+		        		<iframe data-frameid="2" scrolling="auto" frameborder="0" src="form.html" style="width: 100%; height: 640px;"></iframe>
+		        	</div>	
+		        </div>
+		    </div>
+		</div>
+		
+
+		<div class="foot">
+			<span>Copyright ©2017 x-admin 2.3 All Rights Reserved 更多模板:</span>
+			<a href="">源码之家</a>
+		</div>
+	<script type="text/javascript" src="layui/layui/layuiall.js"></script>
+	<script type="text/javascript" src="page.js"></script>
+</body>
+</html>
